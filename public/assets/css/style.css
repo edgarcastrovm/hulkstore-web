@@ -12,6 +12,10 @@
 body{
 	background: #f5f6fa;
 }
+a{
+	text-decoration: none;
+	color: black;
+}
 .modal-backdrop{
 	z-index: 2;
 }
@@ -53,20 +57,47 @@ body{
 }
 
 .table-fixed{height: 600px;overflow-y: scroll;}
-
+/**
+ESTILOS HOME
+**/
+.galery{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:space-around;
+}
 /**
 ESTILOS MENU
 **/
+.top_navbar{
+	background-color: #fff;
+	height: 100px;
+	padding-top: 1.5rem;
+}
 .nav-menu , .nav-btn{
 	display: flex;
-	flex-direction: row-reverse;
+	justify-content: flex-end;
 }
 .nav-menu a{
-	padding: 2rem;
+	border-right: solid 3px #a5a5a5;
+	padding: .2rem  2rem;
 }
-/*
+
+/**
+ESTILOS FOOTER
+**/
+footer{
+	padding-top: 1rem;
+	width: 100vw;
+	height: 50px;
+	background-color: #fff;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+/**
 	SPINER
- */
+ **/
 
 .spinner{
 	width:100vw;

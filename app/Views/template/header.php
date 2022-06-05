@@ -22,14 +22,14 @@
       <div class="top_navbar row">
         <div class="col col-3">
           <a href="#"> 
-            <img src="<?= base_url()?>" alt="" srcset="">
+            <img src="<?= base_url()?>/assets/img/icons/logo-hulk-store.jpg" alt="" height="64px" srcset=""/>
           </a>
         </div>
         <di class="col col-6" >
           <ul class="nav-menu">
-            <li><a href="#"></a>Inicio</li>
-            <li><a href="#"></a>Acerca de</li>
-            <li><a href="#"></a> Tienda</li>
+            <li><a href="<?= base_url()?>">Inicio</a></li>
+            <li><a href="<?= base_url('/about')?>">Acerca de</a></li>
+            <li><a href="<?= base_url('/store')?>">Tienda</a></li>
           </ul>
         </di>
         <div class="nav-btn col col-3">
@@ -38,3 +38,4 @@
       </div>
     </nav>
   </header>
+  <section class="container-fluid">
